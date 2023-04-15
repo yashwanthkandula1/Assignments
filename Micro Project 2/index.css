@@ -1,0 +1,61 @@
+html{
+    background-image: url(https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg);
+}
+
+#output{
+    display: flex;
+    justify-content: center;
+}
+
+#count{
+    font-size: 20em;
+    border: 5px solid;
+    border-radius: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#incdec{
+    padding: 6px;
+    margin: 5px;
+    border: solid;
+    border-color: black;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+
+#custom{
+    display: flex;
+    justify-content: center;
+}
+
+#ip{
+    width: 70px;
+    padding: 2px;
+    
+}
+#ans{
+    background-color: #fae6f5;
+}
+
+input[type=text], select {
+
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button:hover {
+    border-color: aqua;
+}
