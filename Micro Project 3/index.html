@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Project 3</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 id="headding"> 
+        BILL <br> SPILL
+    </h1>
+    <div class="fullbox">
+        <div class="subbox1">
+            <label for="">Bill</label> <br>
+            <input type="number" name=""  placeholder="₹" id="bill" oninput="calculateBill()">   <br>
+
+            <div class="tip">
+                <label for="">Select Tip %</label>  <br>
+                <input type="button" value="5%" class="button_percent" onclick="getTip(5)">
+                <input type="button" value="10%" class="button_percent" onclick="getTip(10)">
+                <input type="button" value="15%" class="button_percent" onclick="getTip(15)"> <br>
+                <input type="button" value="25%" class="button_percent" onclick="getTip(25)">
+                <input type="button" value="50%" class="button_percent" onclick="getTip(50)">
+                <input type="button" value="75%" class="button_percent" onclick="getTip(75)">
+            </div>   
+
+            <br>
+
+            <div class="ip-btn">
+                <label for="">Number of people</label> <br>
+                <input type="text" id="nop" disabled> 
+
+                <input type="button" value="+" id="plus" class="plus-minus" onclick="nOP('inc')">
+                <input type="text" name="" id="no-of-p" value="1" class="plus-minus" oninput="nOpcustom()">
+                <input type="button" value="-" id="minus" class="plus-minus" onclick="nOP('dec')">
+                
+            </div>
+
+        </div>
+        <div class="subbox2">
+            <div id="toppart">
+                <div class="amts">
+                    <label for="">Tip Amount</label>  <br>
+                    <span id="caption">/person</span > <br><br>
+                    <label for="">Total</label> <br>
+                    <span id="caption">/person</span >
+                </div> 
+                
+                <br>
+    
+                <div class="amts">
+                    
+                    <span class="amount" id="tipamt">₹0.00</span> <br><br>
+                    <span class="amount" id="totalamt">₹0.00</span>
+                </div>
+            </div>
+            <div id="reset-btn">
+                <input type="button" value="RESET" id="reset" onclick="reset()">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

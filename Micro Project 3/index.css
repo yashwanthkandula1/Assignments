@@ -1,0 +1,142 @@
+body{
+    background: #D6BCFF;
+}
+#headding{
+    margin-top: 100px;
+    text-align: center;
+    color: #6F3CFF;
+    font-weight: 100;
+    font-size: larger;
+}
+.fullbox{
+   
+    width: fit-content;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+}
+.subbox1 label{
+    font-size: x-small;
+    margin-bottom: 5px;
+    color: #9C60FF;
+}
+#bill::placeholder{
+    
+    color: #9C60FF;
+}
+#bill,#nop{
+    background: rgba(182, 172, 196, 0.53);
+    width: 215px;
+    padding: 5px;
+    margin-bottom: 15px;
+    color: #9C60FF;
+}
+#nop{
+    width: 150px;
+}
+
+.subbox1 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+input[type=button]:hover{
+    box-shadow: -1px 6px 55px rgba(0, 0, 0, 0.16);
+    background: #D6BCFF;
+    cursor: pointer;
+    /* border: 3px solid #FFFFFF; */
+}
+#reset-btn input[type=button]:hover{
+    font-size: smaller;
+    
+}
+.tip{
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+.button_percent{
+    width: 70px;
+    /* height: 20px; */
+    margin: 2px;
+    background: #9C60FF;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 3px;
+    padding: 5px;
+}
+#nop{
+    background: rgba(182, 172, 196, 0.53);
+    background-image: url("images/people\ icon.png");
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 10px;
+    margin-right: -5px;
+    border-right: none;
+}
+#no-of-p{
+    margin: -5px;
+    width: 20px;
+    height: 25px;
+    color: #9C60FF;
+}
+#plus{
+    height: 30px;
+}
+#minus{
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+.subbox2{
+    background-color: #9C60FF;
+    border-radius: 10px;
+    padding: 10px;
+    
+    
+}
+#toppart{
+    display: flex;
+}
+#caption{
+    font-size: 10px;
+    color: #C39FFF;
+}
+.amts{
+    margin: 20px;
+}
+.subbox2 label{
+    color: #F3E4FF;
+}
+.subbox2 .amount{
+    color: #C39FFF;
+    font-family: 'Inconsolata';
+    font-size: 30px;
+}
+#reset-btn{
+    text-align: center;
+    margin-top: 20px;
+}
+#reset{
+    width: 180px;
+    height: 30px;
+    background: #C39FFF;
+    border: none;
+    border-radius: 5px;
+    color: #9C60FF;
+    font-size: 10px;
+    margin: auto 40px;
+}
